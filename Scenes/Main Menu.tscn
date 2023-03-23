@@ -1,0 +1,390 @@
+[gd_scene load_steps=17 format=2]
+
+[ext_resource path="res://Fonts/JosefinSans-Italic-VariableFont_wght.ttf" type="DynamicFontData" id=1]
+[ext_resource path="res://Scripts/Main Menu.gd" type="Script" id=2]
+[ext_resource path="res://BG/wp2888505-Ve7ep5EtR-transformed.png" type="Texture" id=3]
+[ext_resource path="res://Fonts/JosefinSans-Medium.ttf" type="DynamicFontData" id=4]
+[ext_resource path="res://icons/pngkey.com-bismillah-png-1326025.png" type="Texture" id=5]
+[ext_resource path="res://SFX/UI/melancholy-ui-chime-47804.mp3" type="AudioStream" id=6]
+[ext_resource path="res://SFX/البسملةبسم الله الرحمن الرحيم  بصوت هادئ  للمونتاج دون حقوق.mp3" type="AudioStream" id=7]
+
+[sub_resource type="DynamicFont" id=1]
+size = 158
+use_filter = true
+font_data = ExtResource( 1 )
+
+[sub_resource type="DynamicFont" id=2]
+size = 50
+use_filter = true
+font_data = ExtResource( 4 )
+
+[sub_resource type="DynamicFont" id=6]
+size = 50
+use_filter = true
+font_data = ExtResource( 4 )
+
+[sub_resource type="DynamicFont" id=7]
+size = 50
+use_filter = true
+font_data = ExtResource( 4 )
+
+[sub_resource type="DynamicFont" id=8]
+size = 25
+use_filter = true
+font_data = ExtResource( 4 )
+
+[sub_resource type="DynamicFont" id=9]
+size = 100
+use_filter = true
+font_data = ExtResource( 4 )
+
+[sub_resource type="Animation" id=3]
+resource_name = "Fade In"
+length = 3.1
+tracks/0/type = "value"
+tracks/0/path = NodePath(".:color")
+tracks/0/interp = 1
+tracks/0/loop_wrap = true
+tracks/0/imported = false
+tracks/0/enabled = true
+tracks/0/keys = {
+"times": PoolRealArray( 0, 2.1, 3 ),
+"transitions": PoolRealArray( 1, 1, 1 ),
+"update": 0,
+"values": [ Color( 0, 0, 0, 1 ), Color( 0, 0, 0, 1 ), Color( 0, 0, 0, 0 ) ]
+}
+tracks/1/type = "value"
+tracks/1/path = NodePath("../Pngkeycom-bismillah-png-1326025:texture")
+tracks/1/interp = 1
+tracks/1/loop_wrap = true
+tracks/1/imported = false
+tracks/1/enabled = true
+tracks/1/keys = {
+"times": PoolRealArray( 0, 0.5 ),
+"transitions": PoolRealArray( 1, 1 ),
+"update": 1,
+"values": [ ExtResource( 5 ), ExtResource( 5 ) ]
+}
+tracks/2/type = "value"
+tracks/2/path = NodePath("../Pngkeycom-bismillah-png-1326025:modulate")
+tracks/2/interp = 1
+tracks/2/loop_wrap = true
+tracks/2/imported = false
+tracks/2/enabled = true
+tracks/2/keys = {
+"times": PoolRealArray( 0, 0.4, 1.4, 2.1 ),
+"transitions": PoolRealArray( 1, 1, 1, 1 ),
+"update": 0,
+"values": [ Color( 1, 1, 1, 0 ), Color( 1, 1, 1, 1 ), Color( 1, 1, 1, 1 ), Color( 1, 1, 1, 0 ) ]
+}
+tracks/3/type = "value"
+tracks/3/path = NodePath(".:rect_position")
+tracks/3/interp = 1
+tracks/3/loop_wrap = true
+tracks/3/imported = false
+tracks/3/enabled = true
+tracks/3/keys = {
+"times": PoolRealArray( 3, 3.1 ),
+"transitions": PoolRealArray( 1, 1 ),
+"update": 0,
+"values": [ Vector2( 0, 0 ), Vector2( 1366, 0 ) ]
+}
+tracks/4/type = "value"
+tracks/4/path = NodePath("../Pngkeycom-bismillah-png-1326025:position")
+tracks/4/interp = 1
+tracks/4/loop_wrap = true
+tracks/4/imported = false
+tracks/4/enabled = true
+tracks/4/keys = {
+"times": PoolRealArray( 0 ),
+"transitions": PoolRealArray( 1 ),
+"update": 0,
+"values": [ Vector2( 667, 343 ) ]
+}
+tracks/5/type = "value"
+tracks/5/path = NodePath("../AudioStreamPlayer2:volume_db")
+tracks/5/interp = 1
+tracks/5/loop_wrap = true
+tracks/5/imported = false
+tracks/5/enabled = true
+tracks/5/keys = {
+"times": PoolRealArray( 0, 0.4, 1.4, 2.1 ),
+"transitions": PoolRealArray( 1, 1, 1, 1 ),
+"update": 0,
+"values": [ -6.0, 0.0, 0.0, -6.0 ]
+}
+tracks/6/type = "value"
+tracks/6/path = NodePath("../AudioStreamPlayer2:playing")
+tracks/6/interp = 1
+tracks/6/loop_wrap = true
+tracks/6/imported = false
+tracks/6/enabled = true
+tracks/6/keys = {
+"times": PoolRealArray( 0 ),
+"transitions": PoolRealArray( 1 ),
+"update": 1,
+"values": [ true ]
+}
+
+[sub_resource type="Animation" id=5]
+resource_name = "Fade out"
+length = 2.0
+tracks/0/type = "value"
+tracks/0/path = NodePath(".:rect_position")
+tracks/0/interp = 1
+tracks/0/loop_wrap = true
+tracks/0/imported = false
+tracks/0/enabled = true
+tracks/0/keys = {
+"times": PoolRealArray( 0 ),
+"transitions": PoolRealArray( 1 ),
+"update": 0,
+"values": [ Vector2( 0, 0 ) ]
+}
+tracks/1/type = "value"
+tracks/1/path = NodePath("../Pngkeycom-bismillah-png-1326025:position")
+tracks/1/interp = 1
+tracks/1/loop_wrap = true
+tracks/1/imported = false
+tracks/1/enabled = true
+tracks/1/keys = {
+"times": PoolRealArray( 0 ),
+"transitions": PoolRealArray( 1 ),
+"update": 0,
+"values": [ Vector2( 2000, 343 ) ]
+}
+tracks/2/type = "value"
+tracks/2/path = NodePath(".:color")
+tracks/2/interp = 1
+tracks/2/loop_wrap = true
+tracks/2/imported = false
+tracks/2/enabled = true
+tracks/2/keys = {
+"times": PoolRealArray( 0, 1 ),
+"transitions": PoolRealArray( 1, 1 ),
+"update": 0,
+"values": [ Color( 0, 0, 0, 0 ), Color( 0, 0, 0, 1 ) ]
+}
+tracks/3/type = "value"
+tracks/3/path = NodePath("../AudioStreamPlayer:volume_db")
+tracks/3/interp = 1
+tracks/3/loop_wrap = true
+tracks/3/imported = false
+tracks/3/enabled = true
+tracks/3/keys = {
+"times": PoolRealArray( 0, 0.2, 1.5, 2 ),
+"transitions": PoolRealArray( 1, 1, 1, 1 ),
+"update": 0,
+"values": [ -16.0, 0.0, 0.0, -32.0 ]
+}
+tracks/4/type = "value"
+tracks/4/path = NodePath("../AudioStreamPlayer:playing")
+tracks/4/interp = 1
+tracks/4/loop_wrap = true
+tracks/4/imported = false
+tracks/4/enabled = true
+tracks/4/keys = {
+"times": PoolRealArray( 0 ),
+"transitions": PoolRealArray( 1 ),
+"update": 1,
+"values": [ true ]
+}
+
+[sub_resource type="Animation" id=4]
+length = 0.001
+tracks/0/type = "value"
+tracks/0/path = NodePath(".:color")
+tracks/0/interp = 1
+tracks/0/loop_wrap = true
+tracks/0/imported = false
+tracks/0/enabled = true
+tracks/0/keys = {
+"times": PoolRealArray( 0 ),
+"transitions": PoolRealArray( 1 ),
+"update": 0,
+"values": [ Color( 0, 0, 0, 1 ) ]
+}
+tracks/1/type = "value"
+tracks/1/path = NodePath("../Pngkeycom-bismillah-png-1326025:texture")
+tracks/1/interp = 1
+tracks/1/loop_wrap = true
+tracks/1/imported = false
+tracks/1/enabled = true
+tracks/1/keys = {
+"times": PoolRealArray( 0 ),
+"transitions": PoolRealArray( 1 ),
+"update": 0,
+"values": [ ExtResource( 5 ) ]
+}
+tracks/2/type = "value"
+tracks/2/path = NodePath("../Pngkeycom-bismillah-png-1326025:modulate")
+tracks/2/interp = 1
+tracks/2/loop_wrap = true
+tracks/2/imported = false
+tracks/2/enabled = true
+tracks/2/keys = {
+"times": PoolRealArray( 0 ),
+"transitions": PoolRealArray( 1 ),
+"update": 0,
+"values": [ Color( 1, 1, 1, 1 ) ]
+}
+tracks/3/type = "value"
+tracks/3/path = NodePath(".:rect_position")
+tracks/3/interp = 1
+tracks/3/loop_wrap = true
+tracks/3/imported = false
+tracks/3/enabled = true
+tracks/3/keys = {
+"times": PoolRealArray( 0 ),
+"transitions": PoolRealArray( 1 ),
+"update": 0,
+"values": [ Vector2( 0, 0 ) ]
+}
+tracks/4/type = "value"
+tracks/4/path = NodePath("../Pngkeycom-bismillah-png-1326025:position")
+tracks/4/interp = 1
+tracks/4/loop_wrap = true
+tracks/4/imported = false
+tracks/4/enabled = true
+tracks/4/keys = {
+"times": PoolRealArray( 0 ),
+"transitions": PoolRealArray( 1 ),
+"update": 0,
+"values": [ Vector2( 672, 343 ) ]
+}
+tracks/5/type = "value"
+tracks/5/path = NodePath("../AudioStreamPlayer:volume_db")
+tracks/5/interp = 1
+tracks/5/loop_wrap = true
+tracks/5/imported = false
+tracks/5/enabled = true
+tracks/5/keys = {
+"times": PoolRealArray( 0 ),
+"transitions": PoolRealArray( 1 ),
+"update": 0,
+"values": [ 0.0 ]
+}
+tracks/6/type = "value"
+tracks/6/path = NodePath("../AudioStreamPlayer:playing")
+tracks/6/interp = 1
+tracks/6/loop_wrap = true
+tracks/6/imported = false
+tracks/6/enabled = true
+tracks/6/keys = {
+"times": PoolRealArray( 0 ),
+"transitions": PoolRealArray( 1 ),
+"update": 0,
+"values": [ false ]
+}
+tracks/7/type = "value"
+tracks/7/path = NodePath("../AudioStreamPlayer2:volume_db")
+tracks/7/interp = 1
+tracks/7/loop_wrap = true
+tracks/7/imported = false
+tracks/7/enabled = true
+tracks/7/keys = {
+"times": PoolRealArray( 0 ),
+"transitions": PoolRealArray( 1 ),
+"update": 0,
+"values": [ 0.0 ]
+}
+tracks/8/type = "value"
+tracks/8/path = NodePath("../AudioStreamPlayer2:playing")
+tracks/8/interp = 1
+tracks/8/loop_wrap = true
+tracks/8/imported = false
+tracks/8/enabled = true
+tracks/8/keys = {
+"times": PoolRealArray( 0 ),
+"transitions": PoolRealArray( 1 ),
+"update": 0,
+"values": [ false ]
+}
+
+[node name="Control" type="Control"]
+anchor_right = 1.0
+anchor_bottom = 1.0
+script = ExtResource( 2 )
+
+[node name="Wp2888505-Ve7Ep5EtR-transformed" type="Sprite" parent="."]
+scale = Vector2( 0.948611, 0.853333 )
+texture = ExtResource( 3 )
+centered = false
+
+[node name="Title" type="Label" parent="."]
+margin_left = 620.0
+margin_top = 69.0
+margin_right = 1609.0
+margin_bottom = 228.0
+rect_scale = Vector2( 0.75, 0.75 )
+custom_fonts/font = SubResource( 1 )
+text = "Word Of Allah"
+
+[node name="VBoxContainer" type="VBoxContainer" parent="."]
+margin_left = 25.0
+margin_top = 155.0
+margin_right = 475.0
+margin_bottom = 345.0
+
+[node name="Al-Fatiha" type="Button" parent="VBoxContainer"]
+margin_right = 450.0
+margin_bottom = 57.0
+custom_fonts/font = SubResource( 2 )
+text = "Surat Al-Fatiha"
+
+[node name="Al-Baqara" type="Button" parent="VBoxContainer"]
+margin_top = 61.0
+margin_right = 450.0
+margin_bottom = 118.0
+custom_fonts/font = SubResource( 6 )
+text = "Surat Al-Baqara"
+
+[node name="Yaa\'sin" type="Button" parent="VBoxContainer"]
+margin_top = 122.0
+margin_right = 450.0
+margin_bottom = 179.0
+custom_fonts/font = SubResource( 7 )
+text = "Coming Soon..."
+
+[node name="Quit" type="Button" parent="."]
+margin_top = 729.0
+margin_right = 67.0
+margin_bottom = 768.0
+custom_fonts/font = SubResource( 8 )
+text = "Quit"
+
+[node name="Label" type="Label" parent="."]
+margin_left = 814.0
+margin_top = 701.0
+margin_right = 1899.0
+margin_bottom = 904.0
+rect_scale = Vector2( 0.5, 0.5 )
+custom_fonts/font = SubResource( 9 )
+text = "By Khali Della3a Studio
+"
+
+[node name="ColorRect" type="ColorRect" parent="."]
+margin_right = 1366.0
+margin_bottom = 768.0
+color = Color( 0, 0, 0, 1 )
+
+[node name="AnimationPlayer" type="AnimationPlayer" parent="ColorRect"]
+"anims/Fade In" = SubResource( 3 )
+"anims/Fade out" = SubResource( 5 )
+anims/RESET = SubResource( 4 )
+
+[node name="Pngkeycom-bismillah-png-1326025" type="Sprite" parent="."]
+light_mask = 2
+position = Vector2( 672, 343 )
+texture = ExtResource( 5 )
+
+[node name="AudioStreamPlayer" type="AudioStreamPlayer" parent="."]
+stream = ExtResource( 6 )
+
+[node name="AudioStreamPlayer2" type="AudioStreamPlayer" parent="."]
+stream = ExtResource( 7 )
+
+[connection signal="pressed" from="VBoxContainer/Al-Fatiha" to="." method="_on_AlFatiha_pressed"]
+[connection signal="pressed" from="VBoxContainer/Al-Baqara" to="." method="_on_AlBaqara_pressed"]
+[connection signal="pressed" from="VBoxContainer/Yaa'sin" to="." method="_on_Yaasin_pressed"]
+[connection signal="pressed" from="Quit" to="." method="_on_Quit_pressed"]

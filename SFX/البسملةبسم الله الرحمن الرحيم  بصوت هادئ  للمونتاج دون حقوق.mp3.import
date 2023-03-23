@@ -1,0 +1,15 @@
+[remap]
+
+importer="mp3"
+type="AudioStreamMP3"
+path="res://.import/البسملةبسم الله الرحمن الرحيم  بصوت هادئ  للمونتاج دون حقوق.mp3-4ba0973f15cb549219a3d5f86ef4bc75.mp3str"
+
+[deps]
+
+source_file="res://SFX/البسملةبسم الله الرحمن الرحيم  بصوت هادئ  للمونتاج دون حقوق.mp3"
+dest_files=[ "res://.import/البسملةبسم الله الرحمن الرحيم  بصوت هادئ  للمونتاج دون حقوق.mp3-4ba0973f15cb549219a3d5f86ef4bc75.mp3str" ]
+
+[params]
+
+loop=false
+loop_offset=0

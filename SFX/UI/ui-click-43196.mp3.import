@@ -1,0 +1,15 @@
+[remap]
+
+importer="mp3"
+type="AudioStreamMP3"
+path="res://.import/ui-click-43196.mp3-f65511fdeb506494d546d3762047c41f.mp3str"
+
+[deps]
+
+source_file="res://SFX/UI/ui-click-43196.mp3"
+dest_files=[ "res://.import/ui-click-43196.mp3-f65511fdeb506494d546d3762047c41f.mp3str" ]
+
+[params]
+
+loop=true
+loop_offset=0

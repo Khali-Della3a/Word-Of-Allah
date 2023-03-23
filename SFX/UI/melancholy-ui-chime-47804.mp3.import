@@ -1,0 +1,15 @@
+[remap]
+
+importer="mp3"
+type="AudioStreamMP3"
+path="res://.import/melancholy-ui-chime-47804.mp3-f90bb82b1db48e89871adb4445f66309.mp3str"
+
+[deps]
+
+source_file="res://SFX/UI/melancholy-ui-chime-47804.mp3"
+dest_files=[ "res://.import/melancholy-ui-chime-47804.mp3-f90bb82b1db48e89871adb4445f66309.mp3str" ]
+
+[params]
+
+loop=false
+loop_offset=0

@@ -1,0 +1,677 @@
+[gd_scene load_steps=82 format=2]
+
+[ext_resource path="res://BG/vintage-grunge-blue-concrete-texture-wall-background-with-vignette.jpg" type="Texture" id=1]
+[ext_resource path="res://icons/1024px-Al-Baqara.svg.png" type="Texture" id=2]
+[ext_resource path="res://icons/pngkey.com-bismillah-png-1326025.png" type="Texture" id=3]
+[ext_resource path="res://Suwar jpg/Al-Baqara/Noor-Book.com  القران الكريم_page-0002.jpg" type="Texture" id=4]
+[ext_resource path="res://Suwar jpg/Al-Baqara/Noor-Book.com  القران الكريم_page-0014.jpg" type="Texture" id=5]
+[ext_resource path="res://Suwar jpg/Al-Baqara/Noor-Book.com  القران الكريم_page-0015.jpg" type="Texture" id=6]
+[ext_resource path="res://Suwar jpg/Al-Baqara/Noor-Book.com  القران الكريم_page-0016.jpg" type="Texture" id=7]
+[ext_resource path="res://Suwar jpg/Al-Baqara/Noor-Book.com  القران الكريم_page-0017.jpg" type="Texture" id=8]
+[ext_resource path="res://Suwar jpg/Al-Baqara/Noor-Book.com  القران الكريم_page-0018.jpg" type="Texture" id=9]
+[ext_resource path="res://Suwar jpg/Al-Baqara/Noor-Book.com  القران الكريم_page-0010.jpg" type="Texture" id=10]
+[ext_resource path="res://Suwar jpg/Al-Baqara/Noor-Book.com  القران الكريم_page-0013.jpg" type="Texture" id=11]
+[ext_resource path="res://Suwar jpg/Al-Baqara/Noor-Book.com  القران الكريم_page-0012.jpg" type="Texture" id=12]
+[ext_resource path="res://Scripts/Surah_System.gd" type="Script" id=13]
+[ext_resource path="res://Suwar jpg/Al-Baqara/Noor-Book.com  القران الكريم_page-0019.jpg" type="Texture" id=14]
+[ext_resource path="res://Suwar jpg/Al-Baqara/Noor-Book.com  القران الكريم_page-0020.jpg" type="Texture" id=15]
+[ext_resource path="res://Suwar jpg/Al-Baqara/Noor-Book.com  القران الكريم_page-0021.jpg" type="Texture" id=16]
+[ext_resource path="res://Suwar jpg/Al-Baqara/Noor-Book.com  القران الكريم_page-0022.jpg" type="Texture" id=17]
+[ext_resource path="res://Suwar jpg/Al-Baqara/Noor-Book.com  القران الكريم_page-0003.jpg" type="Texture" id=18]
+[ext_resource path="res://Suwar jpg/Al-Baqara/Noor-Book.com  القران الكريم_page-0004.jpg" type="Texture" id=19]
+[ext_resource path="res://Suwar jpg/Al-Baqara/Noor-Book.com  القران الكريم_page-0005.jpg" type="Texture" id=20]
+[ext_resource path="res://Suwar jpg/Al-Baqara/Noor-Book.com  القران الكريم_page-0006.jpg" type="Texture" id=21]
+[ext_resource path="res://Suwar jpg/Al-Baqara/Noor-Book.com  القران الكريم_page-0011.jpg" type="Texture" id=22]
+[ext_resource path="res://Suwar jpg/Al-Baqara/Noor-Book.com  القران الكريم_page-0009.jpg" type="Texture" id=23]
+[ext_resource path="res://Suwar jpg/Al-Baqara/Noor-Book.com  القران الكريم_page-0008.jpg" type="Texture" id=24]
+[ext_resource path="res://Suwar jpg/Al-Baqara/Noor-Book.com  القران الكريم_page-0007.jpg" type="Texture" id=25]
+[ext_resource path="res://Suwar jpg/Al-Baqara/Noor-Book.com  القران الكريم_page-0030.jpg" type="Texture" id=26]
+[ext_resource path="res://Suwar jpg/Al-Baqara/Noor-Book.com  القران الكريم_page-0031.jpg" type="Texture" id=27]
+[ext_resource path="res://Suwar jpg/Al-Baqara/Noor-Book.com  القران الكريم_page-0032.jpg" type="Texture" id=28]
+[ext_resource path="res://Suwar jpg/Al-Baqara/Noor-Book.com  القران الكريم_page-0039.jpg" type="Texture" id=29]
+[ext_resource path="res://Suwar jpg/Al-Baqara/Noor-Book.com  القران الكريم_page-0040.jpg" type="Texture" id=30]
+[ext_resource path="res://Suwar jpg/Al-Baqara/Noor-Book.com  القران الكريم_page-0041.jpg" type="Texture" id=31]
+[ext_resource path="res://Suwar jpg/Al-Baqara/Noor-Book.com  القران الكريم_page-0042.jpg" type="Texture" id=32]
+[ext_resource path="res://Suwar jpg/Al-Baqara/Noor-Book.com  القران الكريم_page-0023.jpg" type="Texture" id=33]
+[ext_resource path="res://Suwar jpg/Al-Baqara/Noor-Book.com  القران الكريم_page-0024.jpg" type="Texture" id=34]
+[ext_resource path="res://Suwar jpg/Al-Baqara/Noor-Book.com  القران الكريم_page-0025.jpg" type="Texture" id=35]
+[ext_resource path="res://Suwar jpg/Al-Baqara/Noor-Book.com  القران الكريم_page-0026.jpg" type="Texture" id=36]
+[ext_resource path="res://Suwar jpg/Al-Baqara/Noor-Book.com  القران الكريم_page-0027.jpg" type="Texture" id=37]
+[ext_resource path="res://Suwar jpg/Al-Baqara/Noor-Book.com  القران الكريم_page-0028.jpg" type="Texture" id=38]
+[ext_resource path="res://Suwar jpg/Al-Baqara/Noor-Book.com  القران الكريم_page-0029.jpg" type="Texture" id=39]
+[ext_resource path="res://Suwar jpg/Al-Baqara/Noor-Book.com  القران الكريم_page-0033.jpg" type="Texture" id=40]
+[ext_resource path="res://Suwar jpg/Al-Baqara/Noor-Book.com  القران الكريم_page-0034.jpg" type="Texture" id=41]
+[ext_resource path="res://Suwar jpg/Al-Baqara/Noor-Book.com  القران الكريم_page-0035.jpg" type="Texture" id=42]
+[ext_resource path="res://Suwar jpg/Al-Baqara/Noor-Book.com  القران الكريم_page-0036.jpg" type="Texture" id=43]
+[ext_resource path="res://Suwar jpg/Al-Baqara/Noor-Book.com  القران الكريم_page-0037.jpg" type="Texture" id=44]
+[ext_resource path="res://Suwar jpg/Al-Baqara/Noor-Book.com  القران الكريم_page-0038.jpg" type="Texture" id=45]
+[ext_resource path="res://Suwar jpg/Al-Baqara/Noor-Book.com  القران الكريم_page-0043.jpg" type="Texture" id=46]
+[ext_resource path="res://Suwar jpg/Al-Baqara/Noor-Book.com  القران الكريم_page-0044.jpg" type="Texture" id=47]
+[ext_resource path="res://Suwar jpg/Al-Baqara/Noor-Book.com  القران الكريم_page-0045.jpg" type="Texture" id=48]
+[ext_resource path="res://icons/arrows/arrow hover.png" type="Texture" id=49]
+[ext_resource path="res://icons/arrows/arrow pressed.png" type="Texture" id=50]
+[ext_resource path="res://icons/arrows/arrow.png" type="Texture" id=51]
+[ext_resource path="res://icons/zoom_in/zoom_in.png" type="Texture" id=52]
+[ext_resource path="res://icons/zoom_in/zoom_in_pressed.png" type="Texture" id=53]
+[ext_resource path="res://icons/zoom_in/zoom_in_hover.png" type="Texture" id=54]
+[ext_resource path="res://icons/zoom_out/zoom_out.png" type="Texture" id=55]
+[ext_resource path="res://icons/zoom_out/zoom_out pressed.png" type="Texture" id=56]
+[ext_resource path="res://icons/zoom_out/zoom_out hover.png" type="Texture" id=57]
+[ext_resource path="res://Fonts/JosefinSans-Medium.ttf" type="DynamicFontData" id=58]
+[ext_resource path="res://SFX/UI/melancholy-ui-chime-47804.mp3" type="AudioStream" id=59]
+
+[sub_resource type="StyleBoxTexture" id=7]
+texture = ExtResource( 49 )
+region_rect = Rect2( 0, 0, 500, 500 )
+
+[sub_resource type="StyleBoxTexture" id=8]
+texture = ExtResource( 50 )
+region_rect = Rect2( 0, 0, 500, 500 )
+
+[sub_resource type="StyleBoxTexture" id=9]
+texture = ExtResource( 51 )
+region_rect = Rect2( 0, 0, 500, 500 )
+
+[sub_resource type="StyleBoxTexture" id=4]
+texture = ExtResource( 49 )
+region_rect = Rect2( 0, 0, 500, 500 )
+
+[sub_resource type="StyleBoxTexture" id=5]
+texture = ExtResource( 50 )
+region_rect = Rect2( 0, 0, 500, 500 )
+
+[sub_resource type="StyleBoxTexture" id=6]
+texture = ExtResource( 51 )
+region_rect = Rect2( 0, 0, 500, 500 )
+
+[sub_resource type="StyleBoxTexture" id=10]
+texture = ExtResource( 49 )
+region_rect = Rect2( 0, 0, 500, 500 )
+
+[sub_resource type="StyleBoxTexture" id=11]
+texture = ExtResource( 50 )
+region_rect = Rect2( 0, 0, 500, 500 )
+
+[sub_resource type="StyleBoxTexture" id=12]
+texture = ExtResource( 51 )
+region_rect = Rect2( 0, 0, 500, 500 )
+
+[sub_resource type="StyleBoxTexture" id=13]
+texture = ExtResource( 49 )
+region_rect = Rect2( 0, 0, 500, 500 )
+
+[sub_resource type="StyleBoxTexture" id=14]
+texture = ExtResource( 50 )
+region_rect = Rect2( 0, 0, 500, 500 )
+
+[sub_resource type="StyleBoxTexture" id=15]
+texture = ExtResource( 51 )
+region_rect = Rect2( 0, 0, 500, 500 )
+
+[sub_resource type="StyleBoxTexture" id=16]
+texture = ExtResource( 54 )
+region_rect = Rect2( 0, 0, 500, 500 )
+
+[sub_resource type="StyleBoxTexture" id=17]
+texture = ExtResource( 53 )
+region_rect = Rect2( 0, 0, 500, 500 )
+
+[sub_resource type="StyleBoxTexture" id=18]
+texture = ExtResource( 52 )
+region_rect = Rect2( 0, 0, 500, 500 )
+
+[sub_resource type="StyleBoxTexture" id=19]
+texture = ExtResource( 57 )
+region_rect = Rect2( 0, 0, 500, 500 )
+
+[sub_resource type="StyleBoxTexture" id=20]
+texture = ExtResource( 56 )
+region_rect = Rect2( 0, 0, 500, 500 )
+
+[sub_resource type="StyleBoxTexture" id=21]
+texture = ExtResource( 55 )
+region_rect = Rect2( 0, 0, 500, 500 )
+
+[sub_resource type="DynamicFont" id=22]
+size = 50
+outline_color = Color( 0.878431, 0.878431, 0.878431, 1 )
+use_filter = true
+font_data = ExtResource( 58 )
+
+[sub_resource type="Animation" id=1]
+resource_name = "Fade In"
+length = 3.1
+tracks/0/type = "value"
+tracks/0/path = NodePath(".:color")
+tracks/0/interp = 1
+tracks/0/loop_wrap = true
+tracks/0/imported = false
+tracks/0/enabled = true
+tracks/0/keys = {
+"times": PoolRealArray( 0, 2.1, 3 ),
+"transitions": PoolRealArray( 1, 1, 1 ),
+"update": 0,
+"values": [ Color( 0, 0, 0, 1 ), Color( 0, 0, 0, 1 ), Color( 0, 0, 0, 0 ) ]
+}
+tracks/1/type = "value"
+tracks/1/path = NodePath(".:rect_position")
+tracks/1/interp = 1
+tracks/1/loop_wrap = true
+tracks/1/imported = false
+tracks/1/enabled = true
+tracks/1/keys = {
+"times": PoolRealArray( 3, 3.1 ),
+"transitions": PoolRealArray( 1, 1 ),
+"update": 0,
+"values": [ Vector2( 0, 0 ), Vector2( 1366, 0 ) ]
+}
+tracks/2/type = "value"
+tracks/2/path = NodePath("1024Px-Al-Baqarasvg:modulate")
+tracks/2/interp = 1
+tracks/2/loop_wrap = true
+tracks/2/imported = false
+tracks/2/enabled = true
+tracks/2/keys = {
+"times": PoolRealArray( 0, 0.4, 1.6, 2.1 ),
+"transitions": PoolRealArray( 1, 1, 1, 1 ),
+"update": 0,
+"values": [ Color( 1, 1, 1, 0 ), Color( 1, 1, 1, 1 ), Color( 1, 1, 1, 1 ), Color( 1, 1, 1, 0 ) ]
+}
+tracks/3/type = "value"
+tracks/3/path = NodePath("1024Px-Al-Baqarasvg:position")
+tracks/3/interp = 1
+tracks/3/loop_wrap = true
+tracks/3/imported = false
+tracks/3/enabled = true
+tracks/3/keys = {
+"times": PoolRealArray( 0, 2.1, 2.2 ),
+"transitions": PoolRealArray( 1, 1, 1 ),
+"update": 0,
+"values": [ Vector2( 683, 384 ), Vector2( 683, 384 ), Vector2( 2000, 384 ) ]
+}
+
+[sub_resource type="Animation" id=2]
+resource_name = "Fade out"
+length = 2.0
+tracks/0/type = "value"
+tracks/0/path = NodePath(".:rect_position")
+tracks/0/interp = 1
+tracks/0/loop_wrap = true
+tracks/0/imported = false
+tracks/0/enabled = true
+tracks/0/keys = {
+"times": PoolRealArray( 0 ),
+"transitions": PoolRealArray( 1 ),
+"update": 0,
+"values": [ Vector2( 0, 0 ) ]
+}
+tracks/1/type = "value"
+tracks/1/path = NodePath("../Pngkeycom-bismillah-png-1326025:position")
+tracks/1/interp = 1
+tracks/1/loop_wrap = true
+tracks/1/imported = false
+tracks/1/enabled = true
+tracks/1/keys = {
+"times": PoolRealArray( 0 ),
+"transitions": PoolRealArray( 1 ),
+"update": 0,
+"values": [ Vector2( 2000, 343 ) ]
+}
+tracks/2/type = "value"
+tracks/2/path = NodePath(".:color")
+tracks/2/interp = 1
+tracks/2/loop_wrap = true
+tracks/2/imported = false
+tracks/2/enabled = true
+tracks/2/keys = {
+"times": PoolRealArray( 0, 1 ),
+"transitions": PoolRealArray( 1, 1 ),
+"update": 0,
+"values": [ Color( 0, 0, 0, 0 ), Color( 0, 0, 0, 1 ) ]
+}
+tracks/3/type = "value"
+tracks/3/path = NodePath("AudioStreamPlayer:volume_db")
+tracks/3/interp = 1
+tracks/3/loop_wrap = true
+tracks/3/imported = false
+tracks/3/enabled = true
+tracks/3/keys = {
+"times": PoolRealArray( 0, 0.2, 1.5, 2 ),
+"transitions": PoolRealArray( 1, 1, 1, 1 ),
+"update": 0,
+"values": [ -16.0, 0.0, 0.0, -32.0 ]
+}
+tracks/4/type = "value"
+tracks/4/path = NodePath("AudioStreamPlayer:playing")
+tracks/4/interp = 1
+tracks/4/loop_wrap = true
+tracks/4/imported = false
+tracks/4/enabled = true
+tracks/4/keys = {
+"times": PoolRealArray( 0 ),
+"transitions": PoolRealArray( 1 ),
+"update": 1,
+"values": [ true ]
+}
+
+[sub_resource type="Animation" id=3]
+length = 0.001
+tracks/0/type = "value"
+tracks/0/path = NodePath(".:color")
+tracks/0/interp = 1
+tracks/0/loop_wrap = true
+tracks/0/imported = false
+tracks/0/enabled = true
+tracks/0/keys = {
+"times": PoolRealArray( 0 ),
+"transitions": PoolRealArray( 1 ),
+"update": 0,
+"values": [ Color( 0, 0, 0, 1 ) ]
+}
+tracks/1/type = "value"
+tracks/1/path = NodePath("../Pngkeycom-bismillah-png-1326025:texture")
+tracks/1/interp = 1
+tracks/1/loop_wrap = true
+tracks/1/imported = false
+tracks/1/enabled = true
+tracks/1/keys = {
+"times": PoolRealArray( 0 ),
+"transitions": PoolRealArray( 1 ),
+"update": 0,
+"values": [ ExtResource( 3 ) ]
+}
+tracks/2/type = "value"
+tracks/2/path = NodePath("../Pngkeycom-bismillah-png-1326025:modulate")
+tracks/2/interp = 1
+tracks/2/loop_wrap = true
+tracks/2/imported = false
+tracks/2/enabled = true
+tracks/2/keys = {
+"times": PoolRealArray( 0 ),
+"transitions": PoolRealArray( 1 ),
+"update": 0,
+"values": [ Color( 1, 1, 1, 1 ) ]
+}
+tracks/3/type = "value"
+tracks/3/path = NodePath(".:rect_position")
+tracks/3/interp = 1
+tracks/3/loop_wrap = true
+tracks/3/imported = false
+tracks/3/enabled = true
+tracks/3/keys = {
+"times": PoolRealArray( 0 ),
+"transitions": PoolRealArray( 1 ),
+"update": 0,
+"values": [ Vector2( 0, 0 ) ]
+}
+tracks/4/type = "value"
+tracks/4/path = NodePath("../Pngkeycom-bismillah-png-1326025:position")
+tracks/4/interp = 1
+tracks/4/loop_wrap = true
+tracks/4/imported = false
+tracks/4/enabled = true
+tracks/4/keys = {
+"times": PoolRealArray( 0 ),
+"transitions": PoolRealArray( 1 ),
+"update": 0,
+"values": [ Vector2( 672, 343 ) ]
+}
+tracks/5/type = "value"
+tracks/5/path = NodePath("1024Px-Al-Baqarasvg:modulate")
+tracks/5/interp = 1
+tracks/5/loop_wrap = true
+tracks/5/imported = false
+tracks/5/enabled = true
+tracks/5/keys = {
+"times": PoolRealArray( 0 ),
+"transitions": PoolRealArray( 1 ),
+"update": 0,
+"values": [ Color( 1, 1, 1, 1 ) ]
+}
+tracks/6/type = "value"
+tracks/6/path = NodePath("1024Px-Al-Baqarasvg:position")
+tracks/6/interp = 1
+tracks/6/loop_wrap = true
+tracks/6/imported = false
+tracks/6/enabled = true
+tracks/6/keys = {
+"times": PoolRealArray( 0 ),
+"transitions": PoolRealArray( 1 ),
+"update": 0,
+"values": [ Vector2( 683, 384 ) ]
+}
+tracks/7/type = "value"
+tracks/7/path = NodePath("AudioStreamPlayer:volume_db")
+tracks/7/interp = 1
+tracks/7/loop_wrap = true
+tracks/7/imported = false
+tracks/7/enabled = true
+tracks/7/keys = {
+"times": PoolRealArray( 0 ),
+"transitions": PoolRealArray( 1 ),
+"update": 0,
+"values": [ -32.0 ]
+}
+tracks/8/type = "value"
+tracks/8/path = NodePath("AudioStreamPlayer:playing")
+tracks/8/interp = 1
+tracks/8/loop_wrap = true
+tracks/8/imported = false
+tracks/8/enabled = true
+tracks/8/keys = {
+"times": PoolRealArray( 0 ),
+"transitions": PoolRealArray( 1 ),
+"update": 0,
+"values": [ false ]
+}
+tracks/9/type = "value"
+tracks/9/path = NodePath("AudioStreamPlayer:stream")
+tracks/9/interp = 1
+tracks/9/loop_wrap = true
+tracks/9/imported = false
+tracks/9/enabled = true
+tracks/9/keys = {
+"times": PoolRealArray( 0 ),
+"transitions": PoolRealArray( 1 ),
+"update": 0,
+"values": [ ExtResource( 59 ) ]
+}
+
+[node name="Node2D" type="Node2D"]
+script = ExtResource( 13 )
+
+[node name="Vintage-grunge-blue-concrete-texture-wall-background-with-vignette" type="Sprite" parent="."]
+scale = Vector2( 0.339286, 0.282353 )
+texture = ExtResource( 1 )
+centered = false
+
+[node name="Camera2D" type="Camera2D" parent="."]
+position = Vector2( 683, 384 )
+
+[node name="SurahMulitPage" type="Node2D" parent="Camera2D"]
+scale = Vector2( 0.5, 0.5 )
+
+[node name="Noor-BookcomالقرانالكريمPage-0002" type="Sprite" parent="Camera2D/SurahMulitPage"]
+position = Vector2( 3, 0 )
+texture = ExtResource( 4 )
+
+[node name="Noor-BookcomالقرانالكريمPage-0003" type="Sprite" parent="Camera2D/SurahMulitPage"]
+position = Vector2( 3, 1756 )
+texture = ExtResource( 18 )
+
+[node name="Noor-BookcomالقرانالكريمPage-0004" type="Sprite" parent="Camera2D/SurahMulitPage"]
+position = Vector2( 3, 3512 )
+texture = ExtResource( 19 )
+
+[node name="Noor-BookcomالقرانالكريمPage-0005" type="Sprite" parent="Camera2D/SurahMulitPage"]
+position = Vector2( 3, 5268 )
+texture = ExtResource( 20 )
+
+[node name="Noor-BookcomالقرانالكريمPage-0006" type="Sprite" parent="Camera2D/SurahMulitPage"]
+position = Vector2( 3, 7024 )
+texture = ExtResource( 21 )
+
+[node name="Noor-BookcomالقرانالكريمPage-0007" type="Sprite" parent="Camera2D/SurahMulitPage"]
+position = Vector2( 3, 8780 )
+texture = ExtResource( 25 )
+
+[node name="Noor-BookcomالقرانالكريمPage-0008" type="Sprite" parent="Camera2D/SurahMulitPage"]
+position = Vector2( 3, 10536 )
+texture = ExtResource( 24 )
+
+[node name="Noor-BookcomالقرانالكريمPage-0009" type="Sprite" parent="Camera2D/SurahMulitPage"]
+position = Vector2( 3, 12292 )
+texture = ExtResource( 23 )
+
+[node name="Noor-BookcomالقرانالكريمPage-0010" type="Sprite" parent="Camera2D/SurahMulitPage"]
+position = Vector2( 3, 14048 )
+texture = ExtResource( 10 )
+
+[node name="Noor-BookcomالقرانالكريمPage-0011" type="Sprite" parent="Camera2D/SurahMulitPage"]
+position = Vector2( 3, 15804 )
+texture = ExtResource( 22 )
+
+[node name="Noor-BookcomالقرانالكريمPage-0012" type="Sprite" parent="Camera2D/SurahMulitPage"]
+position = Vector2( 3, 17560 )
+texture = ExtResource( 12 )
+
+[node name="Noor-BookcomالقرانالكريمPage-0013" type="Sprite" parent="Camera2D/SurahMulitPage"]
+position = Vector2( 3, 19316 )
+texture = ExtResource( 11 )
+
+[node name="Noor-BookcomالقرانالكريمPage-0014" type="Sprite" parent="Camera2D/SurahMulitPage"]
+position = Vector2( 3, 21072 )
+texture = ExtResource( 5 )
+
+[node name="Noor-BookcomالقرانالكريمPage-0015" type="Sprite" parent="Camera2D/SurahMulitPage"]
+position = Vector2( 3, 22828 )
+texture = ExtResource( 6 )
+
+[node name="Noor-BookcomالقرانالكريمPage-0016" type="Sprite" parent="Camera2D/SurahMulitPage"]
+position = Vector2( 3, 24584 )
+texture = ExtResource( 7 )
+
+[node name="Noor-BookcomالقرانالكريمPage-0017" type="Sprite" parent="Camera2D/SurahMulitPage"]
+position = Vector2( 3, 26340 )
+texture = ExtResource( 8 )
+
+[node name="Noor-BookcomالقرانالكريمPage-0018" type="Sprite" parent="Camera2D/SurahMulitPage"]
+position = Vector2( 3, 28096 )
+texture = ExtResource( 9 )
+
+[node name="Noor-BookcomالقرانالكريمPage-0019" type="Sprite" parent="Camera2D/SurahMulitPage"]
+position = Vector2( 3, 29852 )
+texture = ExtResource( 14 )
+
+[node name="Noor-BookcomالقرانالكريمPage-0020" type="Sprite" parent="Camera2D/SurahMulitPage"]
+position = Vector2( 3, 31608 )
+texture = ExtResource( 15 )
+
+[node name="Noor-BookcomالقرانالكريمPage-0021" type="Sprite" parent="Camera2D/SurahMulitPage"]
+position = Vector2( 3, 33364 )
+texture = ExtResource( 16 )
+
+[node name="Noor-BookcomالقرانالكريمPage-0022" type="Sprite" parent="Camera2D/SurahMulitPage"]
+position = Vector2( 3, 35120 )
+texture = ExtResource( 17 )
+
+[node name="Noor-BookcomالقرانالكريمPage-0023" type="Sprite" parent="Camera2D/SurahMulitPage"]
+position = Vector2( 3, 35120 )
+texture = ExtResource( 33 )
+
+[node name="Noor-BookcomالقرانالكريمPage-0024" type="Sprite" parent="Camera2D/SurahMulitPage"]
+position = Vector2( 3, 36876 )
+texture = ExtResource( 34 )
+
+[node name="Noor-BookcomالقرانالكريمPage-0025" type="Sprite" parent="Camera2D/SurahMulitPage"]
+position = Vector2( 3, 38632 )
+texture = ExtResource( 35 )
+
+[node name="Noor-BookcomالقرانالكريمPage-0026" type="Sprite" parent="Camera2D/SurahMulitPage"]
+position = Vector2( 3, 40388 )
+texture = ExtResource( 36 )
+
+[node name="Noor-BookcomالقرانالكريمPage-0027" type="Sprite" parent="Camera2D/SurahMulitPage"]
+position = Vector2( 3, 42144 )
+texture = ExtResource( 37 )
+
+[node name="Noor-BookcomالقرانالكريمPage-0028" type="Sprite" parent="Camera2D/SurahMulitPage"]
+position = Vector2( 3, 43900 )
+texture = ExtResource( 38 )
+
+[node name="Noor-BookcomالقرانالكريمPage-0029" type="Sprite" parent="Camera2D/SurahMulitPage"]
+position = Vector2( 3, 45656 )
+texture = ExtResource( 39 )
+
+[node name="Noor-BookcomالقرانالكريمPage-0030" type="Sprite" parent="Camera2D/SurahMulitPage"]
+position = Vector2( 3, 47412 )
+texture = ExtResource( 26 )
+
+[node name="Noor-BookcomالقرانالكريمPage-0031" type="Sprite" parent="Camera2D/SurahMulitPage"]
+position = Vector2( 3, 49168 )
+texture = ExtResource( 27 )
+
+[node name="Noor-BookcomالقرانالكريمPage-0032" type="Sprite" parent="Camera2D/SurahMulitPage"]
+position = Vector2( 3, 50924 )
+texture = ExtResource( 28 )
+
+[node name="Noor-BookcomالقرانالكريمPage-0033" type="Sprite" parent="Camera2D/SurahMulitPage"]
+position = Vector2( 3, 52680 )
+texture = ExtResource( 40 )
+
+[node name="Noor-BookcomالقرانالكريمPage-0034" type="Sprite" parent="Camera2D/SurahMulitPage"]
+position = Vector2( 3, 54436 )
+texture = ExtResource( 41 )
+
+[node name="Noor-BookcomالقرانالكريمPage-0035" type="Sprite" parent="Camera2D/SurahMulitPage"]
+position = Vector2( 3, 56192 )
+texture = ExtResource( 42 )
+
+[node name="Noor-BookcomالقرانالكريمPage-0036" type="Sprite" parent="Camera2D/SurahMulitPage"]
+position = Vector2( 3, 57948 )
+texture = ExtResource( 43 )
+
+[node name="Noor-BookcomالقرانالكريمPage-0037" type="Sprite" parent="Camera2D/SurahMulitPage"]
+position = Vector2( 3, 59704 )
+texture = ExtResource( 44 )
+
+[node name="Noor-BookcomالقرانالكريمPage-0038" type="Sprite" parent="Camera2D/SurahMulitPage"]
+position = Vector2( 3, 61460 )
+texture = ExtResource( 45 )
+
+[node name="Noor-BookcomالقرانالكريمPage-0039" type="Sprite" parent="Camera2D/SurahMulitPage"]
+position = Vector2( 3, 63216 )
+texture = ExtResource( 29 )
+
+[node name="Noor-BookcomالقرانالكريمPage-0040" type="Sprite" parent="Camera2D/SurahMulitPage"]
+position = Vector2( 3, 64972 )
+texture = ExtResource( 30 )
+
+[node name="Noor-BookcomالقرانالكريمPage-0041" type="Sprite" parent="Camera2D/SurahMulitPage"]
+position = Vector2( 3, 66728 )
+texture = ExtResource( 31 )
+
+[node name="Noor-BookcomالقرانالكريمPage-0042" type="Sprite" parent="Camera2D/SurahMulitPage"]
+position = Vector2( 3, 68484 )
+texture = ExtResource( 32 )
+
+[node name="Noor-BookcomالقرانالكريمPage-0043" type="Sprite" parent="Camera2D/SurahMulitPage"]
+position = Vector2( 3, 70240 )
+texture = ExtResource( 46 )
+
+[node name="Noor-BookcomالقرانالكريمPage-0044" type="Sprite" parent="Camera2D/SurahMulitPage"]
+position = Vector2( 3, 71996 )
+texture = ExtResource( 47 )
+
+[node name="Noor-BookcomالقرانالكريمPage-0045" type="Sprite" parent="Camera2D/SurahMulitPage"]
+position = Vector2( 3, 73114 )
+scale = Vector2( 1.00243, 1 )
+texture = ExtResource( 48 )
+region_enabled = true
+region_rect = Rect2( 0, 0, 1236, 485 )
+
+[node name="HScrollBar" type="HScrollBar" parent="."]
+margin_top = 734.0
+margin_right = 1286.0
+margin_bottom = 769.0
+max_value = 1366.0
+value = 683.0
+
+[node name="VScrollBar" type="VScrollBar" parent="."]
+margin_right = 34.0
+margin_bottom = 653.0
+min_value = -439.0
+max_value = 75508.0
+value = -439.0
+
+[node name="SizeScrollBar" type="HScrollBar" parent="."]
+margin_left = 200.0
+margin_top = -1.0
+margin_right = 500.0
+margin_bottom = 29.0
+min_value = 0.5
+max_value = 5.0
+value = 1.0
+
+[node name="Hleft" type="Button" parent="."]
+margin_left = 1325.0
+margin_top = 768.0
+margin_right = 1365.0
+margin_bottom = 802.0
+rect_rotation = 180.0
+custom_styles/hover = SubResource( 7 )
+custom_styles/pressed = SubResource( 8 )
+custom_styles/normal = SubResource( 9 )
+
+[node name="Hright" type="Button" parent="."]
+margin_left = 1326.0
+margin_top = 734.0
+margin_right = 1366.0
+margin_bottom = 768.0
+custom_styles/hover = SubResource( 4 )
+custom_styles/pressed = SubResource( 5 )
+custom_styles/normal = SubResource( 6 )
+
+[node name="Vup" type="Button" parent="."]
+margin_top = 692.0
+margin_right = 40.0
+margin_bottom = 726.0
+rect_rotation = -90.0
+custom_styles/hover = SubResource( 10 )
+custom_styles/pressed = SubResource( 11 )
+custom_styles/normal = SubResource( 12 )
+
+[node name="Vdown" type="Button" parent="."]
+margin_left = 34.0
+margin_top = 693.0
+margin_right = 74.0
+margin_bottom = 727.0
+rect_rotation = 90.0
+custom_styles/hover = SubResource( 13 )
+custom_styles/pressed = SubResource( 14 )
+custom_styles/normal = SubResource( 15 )
+
+[node name="Zoom in" type="Button" parent="."]
+margin_left = 499.0
+margin_right = 536.0
+margin_bottom = 28.0
+custom_styles/hover = SubResource( 16 )
+custom_styles/pressed = SubResource( 17 )
+custom_styles/normal = SubResource( 18 )
+
+[node name="Zoom out" type="Button" parent="."]
+margin_left = 164.0
+margin_right = 201.0
+margin_bottom = 28.0
+custom_styles/hover = SubResource( 19 )
+custom_styles/pressed = SubResource( 20 )
+custom_styles/normal = SubResource( 21 )
+
+[node name="Main Menu" type="Button" parent="."]
+margin_left = 1228.0
+margin_right = 1503.0
+margin_bottom = 66.0
+rect_scale = Vector2( 0.5, 0.5 )
+custom_fonts/font = SubResource( 22 )
+text = "Main Menu"
+
+[node name="ColorRect" type="ColorRect" parent="."]
+margin_right = 1366.0
+margin_bottom = 768.0
+color = Color( 0, 0, 0, 1 )
+
+[node name="AnimationPlayer" type="AnimationPlayer" parent="ColorRect"]
+"anims/Fade In" = SubResource( 1 )
+"anims/Fade out" = SubResource( 2 )
+anims/RESET = SubResource( 3 )
+
+[node name="1024Px-Al-Baqarasvg" type="Sprite" parent="ColorRect"]
+position = Vector2( 683, 384 )
+scale = Vector2( 0.5, 0.5 )
+texture = ExtResource( 2 )
+
+[node name="AudioStreamPlayer" type="AudioStreamPlayer" parent="ColorRect"]
+stream = ExtResource( 59 )
+volume_db = -32.0
+
+[connection signal="pressed" from="Main Menu" to="." method="_on_Main_Menu_pressed"]
