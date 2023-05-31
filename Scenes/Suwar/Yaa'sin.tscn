@@ -1,4 +1,4 @@
-[gd_scene load_steps=44 format=2]
+[gd_scene load_steps=45 format=2]
 
 [ext_resource path="res://BG/vintage-grunge-blue-concrete-texture-wall-background-with-vignette.jpg" type="Texture" id=1]
 [ext_resource path="res://SFX/UI/melancholy-ui-chime-47804.mp3" type="AudioStream" id=2]
@@ -21,6 +21,7 @@
 [ext_resource path="res://Suwar jpg/Yaa'sin/Noor-Book.com  القران الكريم_page-0408.jpg" type="Texture" id=19]
 [ext_resource path="res://Suwar jpg/Yaa'sin/Noor-Book.com  القران الكريم_page-0410.jpg" type="Texture" id=20]
 [ext_resource path="res://Suwar jpg/Yaa'sin/Noor-Book.com  القران الكريم_page-0409.jpg" type="Texture" id=21]
+[ext_resource path="res://Scripts/Surah_System.gd" type="Script" id=22]
 
 [sub_resource type="StyleBoxTexture" id=1]
 texture = ExtResource( 6 )
@@ -340,6 +341,7 @@ tracks/9/keys = {
 }
 
 [node name="Node2D" type="Node2D"]
+script = ExtResource( 22 )
 
 [node name="Vintage-grunge-blue-concrete-texture-wall-background-with-vignette" type="Sprite" parent="."]
 scale = Vector2( 0.339286, 0.282353 )
@@ -350,7 +352,7 @@ centered = false
 position = Vector2( 683, 384 )
 
 [node name="SurahMulitPage" type="Node2D" parent="Camera2D"]
-position = Vector2( 0, 37 )
+position = Vector2( 0, 384 )
 scale = Vector2( 0.5, 0.5 )
 
 [node name="Noor-BookcomالقرانالكريمPage-0404" type="Sprite" parent="Camera2D/SurahMulitPage"]
@@ -485,3 +487,5 @@ volume_db = -32.0
 [node name="512Px-YaSinsvg" type="Sprite" parent="ColorRect"]
 position = Vector2( 683, 384 )
 texture = ExtResource( 3 )
+
+[connection signal="pressed" from="Main Menu" to="." method="_on_Main_Menu_pressed"]
