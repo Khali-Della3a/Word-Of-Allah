@@ -344,7 +344,7 @@ margin_top = 122.0
 margin_right = 450.0
 margin_bottom = 179.0
 custom_fonts/font = SubResource( 7 )
-text = "Coming Soon..."
+text = "Yaa'sin"
 
 [node name="Quit" type="Button" parent="."]
 margin_top = 729.0
